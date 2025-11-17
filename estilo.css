@@ -1,0 +1,51 @@
+body {
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+.caixa {
+    max-width: 1100px;
+    margin: 36px auto;
+    padding: 28px;
+    background-color:aliceblue;
+    box-sizing: border-box
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 20px;
+  text-align: center;
+}
+
+h1 {
+    margin: 10px;
+    font-size: 24px
+}
+.texto {
+    line-height: 1.55;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.texto p {
+    margin: 0
+}
+/* grid de 3 imagens igual tamanho */
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:10px;
+    margin-top: 18px
+}
+.galeria img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+}
